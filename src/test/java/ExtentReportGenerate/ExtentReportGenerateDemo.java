@@ -40,7 +40,7 @@ public class ExtentReportGenerateDemo {
 		driver.close();
 		test.fail("Result do not match");
 		extent.flush();
-
+        //modified
 	}
 
 }
